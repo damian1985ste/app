@@ -1,0 +1,229 @@
+[Mon Aug 28 14:55:53.583798 2017] [wsgi:error] [pid 3338:tid 140107554166528] [client 10.33.69.90:52301] mod_wsgi (pid=3338): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:55:53.583863 2017] [wsgi:error] [pid 3338:tid 140107554166528] [client 10.33.69.90:52301] Traceback (most recent call last):
+[Mon Aug 28 14:55:53.583889 2017] [wsgi:error] [pid 3338:tid 140107554166528] [client 10.33.69.90:52301]   File "/var/www/app/application/application.wsgi", line 11, in application
+[Mon Aug 28 14:55:53.583952 2017] [wsgi:error] [pid 3338:tid 140107554166528] [client 10.33.69.90:52301]     from mipaquete.mimodulo import mi_funcion_por_defecto
+[Mon Aug 28 14:55:53.583976 2017] [wsgi:error] [pid 3338:tid 140107554166528] [client 10.33.69.90:52301] ImportError: No module named mipaquete.mimodulo
+[Mon Aug 28 14:58:04.283811 2017] [wsgi:error] [pid 3444:tid 140273959036672] [client 10.33.69.90:52314] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:04.283849 2017] [wsgi:error] [pid 3444:tid 140273959036672] [client 10.33.69.90:52314] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:04.283907 2017] [wsgi:error] [pid 3444:tid 140273959036672] [client 10.33.69.90:52314]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:04.283921 2017] [wsgi:error] [pid 3444:tid 140273959036672] [client 10.33.69.90:52314]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:04.283928 2017] [wsgi:error] [pid 3444:tid 140273959036672] [client 10.33.69.90:52314]     ^
+[Mon Aug 28 14:58:04.283935 2017] [wsgi:error] [pid 3444:tid 140273959036672] [client 10.33.69.90:52314] IndentationError: unexpected indent
+[Mon Aug 28 14:58:04.398880 2017] [wsgi:error] [pid 3445:tid 140274070955776] [client 10.33.69.90:52313] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:04.398909 2017] [wsgi:error] [pid 3445:tid 140274070955776] [client 10.33.69.90:52313] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:04.398963 2017] [wsgi:error] [pid 3445:tid 140274070955776] [client 10.33.69.90:52313]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:04.398978 2017] [wsgi:error] [pid 3445:tid 140274070955776] [client 10.33.69.90:52313]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:04.398985 2017] [wsgi:error] [pid 3445:tid 140274070955776] [client 10.33.69.90:52313]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:04.398992 2017] [wsgi:error] [pid 3445:tid 140274070955776] [client 10.33.69.90:52313] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:05.617628 2017] [wsgi:error] [pid 3444:tid 140273950643968] [client 10.33.69.90:52315] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:05.617681 2017] [wsgi:error] [pid 3444:tid 140273950643968] [client 10.33.69.90:52315] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:05.617771 2017] [wsgi:error] [pid 3444:tid 140273950643968] [client 10.33.69.90:52315]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:05.617785 2017] [wsgi:error] [pid 3444:tid 140273950643968] [client 10.33.69.90:52315]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:05.617792 2017] [wsgi:error] [pid 3444:tid 140273950643968] [client 10.33.69.90:52315]     ^
+[Mon Aug 28 14:58:05.617799 2017] [wsgi:error] [pid 3444:tid 140273950643968] [client 10.33.69.90:52315] IndentationError: unexpected indent
+[Mon Aug 28 14:58:05.675492 2017] [wsgi:error] [pid 3445:tid 140274062554880] [client 10.33.69.90:52317] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:05.675526 2017] [wsgi:error] [pid 3445:tid 140274062554880] [client 10.33.69.90:52317] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:05.675591 2017] [wsgi:error] [pid 3445:tid 140274062554880] [client 10.33.69.90:52317]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:05.675606 2017] [wsgi:error] [pid 3445:tid 140274062554880] [client 10.33.69.90:52317]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:05.675613 2017] [wsgi:error] [pid 3445:tid 140274062554880] [client 10.33.69.90:52317]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:05.675619 2017] [wsgi:error] [pid 3445:tid 140274062554880] [client 10.33.69.90:52317] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.152705 2017] [wsgi:error] [pid 3445:tid 140274054153984] [client 10.33.69.90:52316] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:06.152751 2017] [wsgi:error] [pid 3445:tid 140274054153984] [client 10.33.69.90:52316] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:06.152822 2017] [wsgi:error] [pid 3445:tid 140274054153984] [client 10.33.69.90:52316]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:06.152838 2017] [wsgi:error] [pid 3445:tid 140274054153984] [client 10.33.69.90:52316]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:06.152845 2017] [wsgi:error] [pid 3445:tid 140274054153984] [client 10.33.69.90:52316]     ^
+[Mon Aug 28 14:58:06.152851 2017] [wsgi:error] [pid 3445:tid 140274054153984] [client 10.33.69.90:52316] IndentationError: unexpected indent
+[Mon Aug 28 14:58:06.210451 2017] [wsgi:error] [pid 3444:tid 140273942251264] [client 10.33.69.90:52319] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.210479 2017] [wsgi:error] [pid 3444:tid 140273942251264] [client 10.33.69.90:52319] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.210530 2017] [wsgi:error] [pid 3444:tid 140273942251264] [client 10.33.69.90:52319]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.210544 2017] [wsgi:error] [pid 3444:tid 140273942251264] [client 10.33.69.90:52319]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.210551 2017] [wsgi:error] [pid 3444:tid 140273942251264] [client 10.33.69.90:52319]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.210558 2017] [wsgi:error] [pid 3444:tid 140273942251264] [client 10.33.69.90:52319] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.512971 2017] [wsgi:error] [pid 3445:tid 140274045753088] [client 10.33.69.90:52318] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:06.512993 2017] [wsgi:error] [pid 3445:tid 140274045753088] [client 10.33.69.90:52318] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:06.513048 2017] [wsgi:error] [pid 3445:tid 140274045753088] [client 10.33.69.90:52318]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:06.513075 2017] [wsgi:error] [pid 3445:tid 140274045753088] [client 10.33.69.90:52318]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:06.513082 2017] [wsgi:error] [pid 3445:tid 140274045753088] [client 10.33.69.90:52318]     ^
+[Mon Aug 28 14:58:06.513088 2017] [wsgi:error] [pid 3445:tid 140274045753088] [client 10.33.69.90:52318] IndentationError: unexpected indent
+[Mon Aug 28 14:58:06.578786 2017] [wsgi:error] [pid 3444:tid 140273933858560] [client 10.33.69.90:52321] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.578807 2017] [wsgi:error] [pid 3444:tid 140273933858560] [client 10.33.69.90:52321] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.578860 2017] [wsgi:error] [pid 3444:tid 140273933858560] [client 10.33.69.90:52321]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.578877 2017] [wsgi:error] [pid 3444:tid 140273933858560] [client 10.33.69.90:52321]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.578884 2017] [wsgi:error] [pid 3444:tid 140273933858560] [client 10.33.69.90:52321]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.578891 2017] [wsgi:error] [pid 3444:tid 140273933858560] [client 10.33.69.90:52321] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.792261 2017] [wsgi:error] [pid 3445:tid 140273967429376] [client 10.33.69.90:52320] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:06.792282 2017] [wsgi:error] [pid 3445:tid 140273967429376] [client 10.33.69.90:52320] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:06.792331 2017] [wsgi:error] [pid 3445:tid 140273967429376] [client 10.33.69.90:52320]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:06.792365 2017] [wsgi:error] [pid 3445:tid 140273967429376] [client 10.33.69.90:52320]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:06.792375 2017] [wsgi:error] [pid 3445:tid 140273967429376] [client 10.33.69.90:52320]     ^
+[Mon Aug 28 14:58:06.792381 2017] [wsgi:error] [pid 3445:tid 140273967429376] [client 10.33.69.90:52320] IndentationError: unexpected indent
+[Mon Aug 28 14:58:06.857453 2017] [wsgi:error] [pid 3444:tid 140273925465856] [client 10.33.69.90:52323] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.857474 2017] [wsgi:error] [pid 3444:tid 140273925465856] [client 10.33.69.90:52323] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.857523 2017] [wsgi:error] [pid 3444:tid 140273925465856] [client 10.33.69.90:52323]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.857540 2017] [wsgi:error] [pid 3444:tid 140273925465856] [client 10.33.69.90:52323]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.857547 2017] [wsgi:error] [pid 3444:tid 140273925465856] [client 10.33.69.90:52323]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:06.857553 2017] [wsgi:error] [pid 3444:tid 140273925465856] [client 10.33.69.90:52323] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.022041 2017] [wsgi:error] [pid 3445:tid 140273959036672] [client 10.33.69.90:52322] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:07.022078 2017] [wsgi:error] [pid 3445:tid 140273959036672] [client 10.33.69.90:52322] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:07.022130 2017] [wsgi:error] [pid 3445:tid 140273959036672] [client 10.33.69.90:52322]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:07.022143 2017] [wsgi:error] [pid 3445:tid 140273959036672] [client 10.33.69.90:52322]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:07.022150 2017] [wsgi:error] [pid 3445:tid 140273959036672] [client 10.33.69.90:52322]     ^
+[Mon Aug 28 14:58:07.022156 2017] [wsgi:error] [pid 3445:tid 140273959036672] [client 10.33.69.90:52322] IndentationError: unexpected indent
+[Mon Aug 28 14:58:07.073646 2017] [wsgi:error] [pid 3445:tid 140273950643968] [client 10.33.69.90:52325] mod_wsgi (pid=3445, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.073667 2017] [wsgi:error] [pid 3445:tid 140273950643968] [client 10.33.69.90:52325] mod_wsgi (pid=3445): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.073716 2017] [wsgi:error] [pid 3445:tid 140273950643968] [client 10.33.69.90:52325]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.073733 2017] [wsgi:error] [pid 3445:tid 140273950643968] [client 10.33.69.90:52325]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.073740 2017] [wsgi:error] [pid 3445:tid 140273950643968] [client 10.33.69.90:52325]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.073746 2017] [wsgi:error] [pid 3445:tid 140273950643968] [client 10.33.69.90:52325] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.223438 2017] [wsgi:error] [pid 3444:tid 140273967429376] [client 10.33.69.90:52324] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:07.223465 2017] [wsgi:error] [pid 3444:tid 140273967429376] [client 10.33.69.90:52324] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 14:58:07.223517 2017] [wsgi:error] [pid 3444:tid 140273967429376] [client 10.33.69.90:52324]   File "/var/www/app/application/application.wsgi", line 12
+[Mon Aug 28 14:58:07.223530 2017] [wsgi:error] [pid 3444:tid 140273967429376] [client 10.33.69.90:52324]     output = "Hola mundo!"  #mi_funcion_por_defecto()
+[Mon Aug 28 14:58:07.223537 2017] [wsgi:error] [pid 3444:tid 140273967429376] [client 10.33.69.90:52324]     ^
+[Mon Aug 28 14:58:07.223543 2017] [wsgi:error] [pid 3444:tid 140273967429376] [client 10.33.69.90:52324] IndentationError: unexpected indent
+[Mon Aug 28 14:58:07.283500 2017] [wsgi:error] [pid 3444:tid 140273917073152] [client 10.33.69.90:52327] mod_wsgi (pid=3444, process='', application='app:8080|'): Failed to parse WSGI script file '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.283520 2017] [wsgi:error] [pid 3444:tid 140273917073152] [client 10.33.69.90:52327] mod_wsgi (pid=3444): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.283570 2017] [wsgi:error] [pid 3444:tid 140273917073152] [client 10.33.69.90:52327]   File "/var/www/app/application/application.wsgi", line 12, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.283587 2017] [wsgi:error] [pid 3444:tid 140273917073152] [client 10.33.69.90:52327]     output = "Hola mundo!"  #mi_funcion_por_defecto(), referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.283601 2017] [wsgi:error] [pid 3444:tid 140273917073152] [client 10.33.69.90:52327]     ^, referer: http://10.64.17.40:8080/
+[Mon Aug 28 14:58:07.283608 2017] [wsgi:error] [pid 3444:tid 140273917073152] [client 10.33.69.90:52327] IndentationError: unexpected indent, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:30:33.835209 2017] [wsgi:error] [pid 3712:tid 140375293421312] [client 10.33.69.90:52735] mod_wsgi (pid=3712): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:30:33.835263 2017] [wsgi:error] [pid 3712:tid 140375293421312] [client 10.33.69.90:52735] Traceback (most recent call last):
+[Mon Aug 28 15:30:33.835285 2017] [wsgi:error] [pid 3712:tid 140375293421312] [client 10.33.69.90:52735]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:30:33.835340 2017] [wsgi:error] [pid 3712:tid 140375293421312] [client 10.33.69.90:52735]     from application.prueba import mi_funcion
+[Mon Aug 28 15:30:33.835362 2017] [wsgi:error] [pid 3712:tid 140375293421312] [client 10.33.69.90:52735] ImportError: No module named application.prueba
+[Mon Aug 28 15:30:33.967346 2017] [wsgi:error] [pid 3711:tid 140375293421312] [client 10.33.69.90:52734] mod_wsgi (pid=3711): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:30:33.967383 2017] [wsgi:error] [pid 3711:tid 140375293421312] [client 10.33.69.90:52734] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:30:33.967402 2017] [wsgi:error] [pid 3711:tid 140375293421312] [client 10.33.69.90:52734]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:30:33.967457 2017] [wsgi:error] [pid 3711:tid 140375293421312] [client 10.33.69.90:52734]     from application.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:30:33.967479 2017] [wsgi:error] [pid 3711:tid 140375293421312] [client 10.33.69.90:52734] ImportError: No module named application.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:50.849391 2017] [wsgi:error] [pid 3844:tid 139886011086592] [client 10.33.69.90:52878] mod_wsgi (pid=3844): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:36:50.849446 2017] [wsgi:error] [pid 3844:tid 139886011086592] [client 10.33.69.90:52878] Traceback (most recent call last):
+[Mon Aug 28 15:36:50.849467 2017] [wsgi:error] [pid 3844:tid 139886011086592] [client 10.33.69.90:52878]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:36:50.849521 2017] [wsgi:error] [pid 3844:tid 139886011086592] [client 10.33.69.90:52878]     from application.modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:36:50.849543 2017] [wsgi:error] [pid 3844:tid 139886011086592] [client 10.33.69.90:52878] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:36:50.965070 2017] [wsgi:error] [pid 3843:tid 139885918766848] [client 10.33.69.90:52879] mod_wsgi (pid=3843): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:50.965105 2017] [wsgi:error] [pid 3843:tid 139885918766848] [client 10.33.69.90:52879] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:50.965125 2017] [wsgi:error] [pid 3843:tid 139885918766848] [client 10.33.69.90:52879]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:50.965178 2017] [wsgi:error] [pid 3843:tid 139885918766848] [client 10.33.69.90:52879]     from application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:50.965200 2017] [wsgi:error] [pid 3843:tid 139885918766848] [client 10.33.69.90:52879] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:54.638708 2017] [wsgi:error] [pid 3843:tid 139885901981440] [client 10.33.69.90:52880] mod_wsgi (pid=3843): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:36:54.638770 2017] [wsgi:error] [pid 3843:tid 139885901981440] [client 10.33.69.90:52880] Traceback (most recent call last):
+[Mon Aug 28 15:36:54.638800 2017] [wsgi:error] [pid 3843:tid 139885901981440] [client 10.33.69.90:52880]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:36:54.638838 2017] [wsgi:error] [pid 3843:tid 139885901981440] [client 10.33.69.90:52880]     from application.modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:36:54.638862 2017] [wsgi:error] [pid 3843:tid 139885901981440] [client 10.33.69.90:52880] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:36:54.770539 2017] [wsgi:error] [pid 3843:tid 139886011086592] [client 10.33.69.90:52882] mod_wsgi (pid=3843): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:54.770568 2017] [wsgi:error] [pid 3843:tid 139886011086592] [client 10.33.69.90:52882] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:54.770588 2017] [wsgi:error] [pid 3843:tid 139886011086592] [client 10.33.69.90:52882]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:54.770612 2017] [wsgi:error] [pid 3843:tid 139886011086592] [client 10.33.69.90:52882]     from application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:36:54.770630 2017] [wsgi:error] [pid 3843:tid 139886011086592] [client 10.33.69.90:52882] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:41:12.710535 2017] [wsgi:error] [pid 3951:tid 139882276296448] [client 10.33.69.90:52929] mod_wsgi (pid=3951): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:41:12.710591 2017] [wsgi:error] [pid 3951:tid 139882276296448] [client 10.33.69.90:52929] Traceback (most recent call last):
+[Mon Aug 28 15:41:12.710614 2017] [wsgi:error] [pid 3951:tid 139882276296448] [client 10.33.69.90:52929]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:41:12.710675 2017] [wsgi:error] [pid 3951:tid 139882276296448] [client 10.33.69.90:52929]     from app.application.modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:41:12.710700 2017] [wsgi:error] [pid 3951:tid 139882276296448] [client 10.33.69.90:52929] ImportError: No module named app.application.modulos_python.prueba
+[Mon Aug 28 15:41:12.786079 2017] [wsgi:error] [pid 3950:tid 139882093561600] [client 10.33.69.90:52930] mod_wsgi (pid=3950): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:41:12.786116 2017] [wsgi:error] [pid 3950:tid 139882093561600] [client 10.33.69.90:52930] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:41:12.786137 2017] [wsgi:error] [pid 3950:tid 139882093561600] [client 10.33.69.90:52930]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:41:12.786196 2017] [wsgi:error] [pid 3950:tid 139882093561600] [client 10.33.69.90:52930]     from app.application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:41:12.786222 2017] [wsgi:error] [pid 3950:tid 139882093561600] [client 10.33.69.90:52930] ImportError: No module named app.application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:08.381864 2017] [wsgi:error] [pid 4061:tid 140301733680896] [client 10.33.69.90:52937] mod_wsgi (pid=4061): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:42:08.381916 2017] [wsgi:error] [pid 4061:tid 140301733680896] [client 10.33.69.90:52937] Traceback (most recent call last):
+[Mon Aug 28 15:42:08.381949 2017] [wsgi:error] [pid 4061:tid 140301733680896] [client 10.33.69.90:52937]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:42:08.382005 2017] [wsgi:error] [pid 4061:tid 140301733680896] [client 10.33.69.90:52937]     from modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:42:08.382026 2017] [wsgi:error] [pid 4061:tid 140301733680896] [client 10.33.69.90:52937] ImportError: No module named modulos_python.prueba
+[Mon Aug 28 15:42:08.503153 2017] [wsgi:error] [pid 4062:tid 140301800822528] [client 10.33.69.90:52939] mod_wsgi (pid=4062): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:08.503197 2017] [wsgi:error] [pid 4062:tid 140301800822528] [client 10.33.69.90:52939] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:08.503217 2017] [wsgi:error] [pid 4062:tid 140301800822528] [client 10.33.69.90:52939]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:08.503270 2017] [wsgi:error] [pid 4062:tid 140301800822528] [client 10.33.69.90:52939]     from modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:08.503292 2017] [wsgi:error] [pid 4062:tid 140301800822528] [client 10.33.69.90:52939] ImportError: No module named modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.107459 2017] [wsgi:error] [pid 4061:tid 140301725288192] [client 10.33.69.90:52938] mod_wsgi (pid=4061): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:42:09.107501 2017] [wsgi:error] [pid 4061:tid 140301725288192] [client 10.33.69.90:52938] Traceback (most recent call last):
+[Mon Aug 28 15:42:09.107525 2017] [wsgi:error] [pid 4061:tid 140301725288192] [client 10.33.69.90:52938]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:42:09.107573 2017] [wsgi:error] [pid 4061:tid 140301725288192] [client 10.33.69.90:52938]     from modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:42:09.107596 2017] [wsgi:error] [pid 4061:tid 140301725288192] [client 10.33.69.90:52938] ImportError: No module named modulos_python.prueba
+[Mon Aug 28 15:42:09.174198 2017] [wsgi:error] [pid 4062:tid 140301792429824] [client 10.33.69.90:52940] mod_wsgi (pid=4062): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.174233 2017] [wsgi:error] [pid 4062:tid 140301792429824] [client 10.33.69.90:52940] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.174254 2017] [wsgi:error] [pid 4062:tid 140301792429824] [client 10.33.69.90:52940]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.174279 2017] [wsgi:error] [pid 4062:tid 140301792429824] [client 10.33.69.90:52940]     from modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.174297 2017] [wsgi:error] [pid 4062:tid 140301792429824] [client 10.33.69.90:52940] ImportError: No module named modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.547377 2017] [wsgi:error] [pid 4061:tid 140301716895488] [client 10.33.69.90:52941] mod_wsgi (pid=4061): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:42:09.547407 2017] [wsgi:error] [pid 4061:tid 140301716895488] [client 10.33.69.90:52941] Traceback (most recent call last):
+[Mon Aug 28 15:42:09.547428 2017] [wsgi:error] [pid 4061:tid 140301716895488] [client 10.33.69.90:52941]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:42:09.547453 2017] [wsgi:error] [pid 4061:tid 140301716895488] [client 10.33.69.90:52941]     from modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:42:09.547478 2017] [wsgi:error] [pid 4061:tid 140301716895488] [client 10.33.69.90:52941] ImportError: No module named modulos_python.prueba
+[Mon Aug 28 15:42:09.605443 2017] [wsgi:error] [pid 4062:tid 140301784037120] [client 10.33.69.90:52942] mod_wsgi (pid=4062): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.605472 2017] [wsgi:error] [pid 4062:tid 140301784037120] [client 10.33.69.90:52942] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.605493 2017] [wsgi:error] [pid 4062:tid 140301784037120] [client 10.33.69.90:52942]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.605518 2017] [wsgi:error] [pid 4062:tid 140301784037120] [client 10.33.69.90:52942]     from modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.605536 2017] [wsgi:error] [pid 4062:tid 140301784037120] [client 10.33.69.90:52942] ImportError: No module named modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.827380 2017] [wsgi:error] [pid 4061:tid 140301708502784] [client 10.33.69.90:52943] mod_wsgi (pid=4061): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:42:09.827409 2017] [wsgi:error] [pid 4061:tid 140301708502784] [client 10.33.69.90:52943] Traceback (most recent call last):
+[Mon Aug 28 15:42:09.827429 2017] [wsgi:error] [pid 4061:tid 140301708502784] [client 10.33.69.90:52943]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:42:09.827453 2017] [wsgi:error] [pid 4061:tid 140301708502784] [client 10.33.69.90:52943]     from modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:42:09.827470 2017] [wsgi:error] [pid 4061:tid 140301708502784] [client 10.33.69.90:52943] ImportError: No module named modulos_python.prueba
+[Mon Aug 28 15:42:09.891282 2017] [wsgi:error] [pid 4061:tid 140301691717376] [client 10.33.69.90:52945] mod_wsgi (pid=4061): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.891312 2017] [wsgi:error] [pid 4061:tid 140301691717376] [client 10.33.69.90:52945] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.891332 2017] [wsgi:error] [pid 4061:tid 140301691717376] [client 10.33.69.90:52945]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.891357 2017] [wsgi:error] [pid 4061:tid 140301691717376] [client 10.33.69.90:52945]     from modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:42:09.891374 2017] [wsgi:error] [pid 4061:tid 140301691717376] [client 10.33.69.90:52945] ImportError: No module named modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:47.335942 2017] [wsgi:error] [pid 4166:tid 140650766915328] [client 10.33.69.90:52964] mod_wsgi (pid=4166): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:44:47.336005 2017] [wsgi:error] [pid 4166:tid 140650766915328] [client 10.33.69.90:52964] Traceback (most recent call last):
+[Mon Aug 28 15:44:47.336027 2017] [wsgi:error] [pid 4166:tid 140650766915328] [client 10.33.69.90:52964]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:44:47.336082 2017] [wsgi:error] [pid 4166:tid 140650766915328] [client 10.33.69.90:52964]     import application.modulos_python.prueba
+[Mon Aug 28 15:44:47.336104 2017] [wsgi:error] [pid 4166:tid 140650766915328] [client 10.33.69.90:52964] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:44:47.470406 2017] [wsgi:error] [pid 4167:tid 140650766915328] [client 10.33.69.90:52965] mod_wsgi (pid=4167): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:47.470456 2017] [wsgi:error] [pid 4167:tid 140650766915328] [client 10.33.69.90:52965] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:47.470476 2017] [wsgi:error] [pid 4167:tid 140650766915328] [client 10.33.69.90:52965]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:47.470530 2017] [wsgi:error] [pid 4167:tid 140650766915328] [client 10.33.69.90:52965]     import application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:47.470553 2017] [wsgi:error] [pid 4167:tid 140650766915328] [client 10.33.69.90:52965] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.238118 2017] [wsgi:error] [pid 4166:tid 140650758522624] [client 10.33.69.90:52966] mod_wsgi (pid=4166): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:44:48.238171 2017] [wsgi:error] [pid 4166:tid 140650758522624] [client 10.33.69.90:52966] Traceback (most recent call last):
+[Mon Aug 28 15:44:48.238200 2017] [wsgi:error] [pid 4166:tid 140650758522624] [client 10.33.69.90:52966]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:44:48.238237 2017] [wsgi:error] [pid 4166:tid 140650758522624] [client 10.33.69.90:52966]     import application.modulos_python.prueba
+[Mon Aug 28 15:44:48.238260 2017] [wsgi:error] [pid 4166:tid 140650758522624] [client 10.33.69.90:52966] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:44:48.303987 2017] [wsgi:error] [pid 4167:tid 140650758522624] [client 10.33.69.90:52968] mod_wsgi (pid=4167): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.304023 2017] [wsgi:error] [pid 4167:tid 140650758522624] [client 10.33.69.90:52968] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.304047 2017] [wsgi:error] [pid 4167:tid 140650758522624] [client 10.33.69.90:52968]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.304078 2017] [wsgi:error] [pid 4167:tid 140650758522624] [client 10.33.69.90:52968]     import application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.304100 2017] [wsgi:error] [pid 4167:tid 140650758522624] [client 10.33.69.90:52968] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.645734 2017] [wsgi:error] [pid 4166:tid 140650750129920] [client 10.33.69.90:52967] mod_wsgi (pid=4166): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:44:48.645762 2017] [wsgi:error] [pid 4166:tid 140650750129920] [client 10.33.69.90:52967] Traceback (most recent call last):
+[Mon Aug 28 15:44:48.645783 2017] [wsgi:error] [pid 4166:tid 140650750129920] [client 10.33.69.90:52967]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:44:48.645819 2017] [wsgi:error] [pid 4166:tid 140650750129920] [client 10.33.69.90:52967]     import application.modulos_python.prueba
+[Mon Aug 28 15:44:48.645840 2017] [wsgi:error] [pid 4166:tid 140650750129920] [client 10.33.69.90:52967] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:44:48.712710 2017] [wsgi:error] [pid 4167:tid 140650750129920] [client 10.33.69.90:52970] mod_wsgi (pid=4167): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.712738 2017] [wsgi:error] [pid 4167:tid 140650750129920] [client 10.33.69.90:52970] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.712759 2017] [wsgi:error] [pid 4167:tid 140650750129920] [client 10.33.69.90:52970]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.712815 2017] [wsgi:error] [pid 4167:tid 140650750129920] [client 10.33.69.90:52970]     import application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:44:48.712835 2017] [wsgi:error] [pid 4167:tid 140650750129920] [client 10.33.69.90:52970] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:54.668837 2017] [wsgi:error] [pid 4275:tid 139773989574400] [client 10.33.69.90:52984] mod_wsgi (pid=4275): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:48:54.668892 2017] [wsgi:error] [pid 4275:tid 139773989574400] [client 10.33.69.90:52984] Traceback (most recent call last):
+[Mon Aug 28 15:48:54.668915 2017] [wsgi:error] [pid 4275:tid 139773989574400] [client 10.33.69.90:52984]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:48:54.668974 2017] [wsgi:error] [pid 4275:tid 139773989574400] [client 10.33.69.90:52984]     from application.modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:48:54.668999 2017] [wsgi:error] [pid 4275:tid 139773989574400] [client 10.33.69.90:52984] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:48:54.782655 2017] [wsgi:error] [pid 4276:tid 139774159890176] [client 10.33.69.90:52986] mod_wsgi (pid=4276): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:54.782695 2017] [wsgi:error] [pid 4276:tid 139774159890176] [client 10.33.69.90:52986] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:54.782716 2017] [wsgi:error] [pid 4276:tid 139774159890176] [client 10.33.69.90:52986]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:54.782775 2017] [wsgi:error] [pid 4276:tid 139774159890176] [client 10.33.69.90:52986]     from application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:54.782800 2017] [wsgi:error] [pid 4276:tid 139774159890176] [client 10.33.69.90:52986] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.378096 2017] [wsgi:error] [pid 4275:tid 139773972788992] [client 10.33.69.90:52985] mod_wsgi (pid=4275): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:48:55.378139 2017] [wsgi:error] [pid 4275:tid 139773972788992] [client 10.33.69.90:52985] Traceback (most recent call last):
+[Mon Aug 28 15:48:55.378166 2017] [wsgi:error] [pid 4275:tid 139773972788992] [client 10.33.69.90:52985]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:48:55.378196 2017] [wsgi:error] [pid 4275:tid 139773972788992] [client 10.33.69.90:52985]     from application.modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:48:55.378218 2017] [wsgi:error] [pid 4275:tid 139773972788992] [client 10.33.69.90:52985] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:48:55.445337 2017] [wsgi:error] [pid 4276:tid 139774151489280] [client 10.33.69.90:52987] mod_wsgi (pid=4276): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.445376 2017] [wsgi:error] [pid 4276:tid 139774151489280] [client 10.33.69.90:52987] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.445400 2017] [wsgi:error] [pid 4276:tid 139774151489280] [client 10.33.69.90:52987]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.445428 2017] [wsgi:error] [pid 4276:tid 139774151489280] [client 10.33.69.90:52987]     from application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.445460 2017] [wsgi:error] [pid 4276:tid 139774151489280] [client 10.33.69.90:52987] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.802131 2017] [wsgi:error] [pid 4275:tid 139774151489280] [client 10.33.69.90:52988] mod_wsgi (pid=4275): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 15:48:55.802166 2017] [wsgi:error] [pid 4275:tid 139774151489280] [client 10.33.69.90:52988] Traceback (most recent call last):
+[Mon Aug 28 15:48:55.802191 2017] [wsgi:error] [pid 4275:tid 139774151489280] [client 10.33.69.90:52988]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 15:48:55.802219 2017] [wsgi:error] [pid 4275:tid 139774151489280] [client 10.33.69.90:52988]     from application.modulos_python.prueba import mi_funcion
+[Mon Aug 28 15:48:55.802239 2017] [wsgi:error] [pid 4275:tid 139774151489280] [client 10.33.69.90:52988] ImportError: No module named application.modulos_python.prueba
+[Mon Aug 28 15:48:55.864749 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989] mod_wsgi (pid=4276): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'., referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.864798 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989] Traceback (most recent call last):, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.864826 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.864855 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989]     from application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
+[Mon Aug 28 15:48:55.864875 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
