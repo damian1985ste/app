@@ -227,3 +227,71 @@
 [Mon Aug 28 15:48:55.864826 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989]   File "/var/www/app/application/application.wsgi", line 8, in application, referer: http://10.64.17.40:8080/
 [Mon Aug 28 15:48:55.864855 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989]     from application.modulos_python.prueba import mi_funcion, referer: http://10.64.17.40:8080/
 [Mon Aug 28 15:48:55.864875 2017] [wsgi:error] [pid 4276:tid 139774073501440] [client 10.33.69.90:52989] ImportError: No module named application.modulos_python.prueba, referer: http://10.64.17.40:8080/
+[Mon Aug 28 19:37:41.015784 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641] mod_wsgi (pid=2539): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 19:37:41.015819 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641] Traceback (most recent call last):
+[Mon Aug 28 19:37:41.015831 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]   File "/var/www/app/application/application.wsgi", line 9, in application
+[Mon Aug 28 19:37:41.015865 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]     output = leer()
+[Mon Aug 28 19:37:41.015871 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]   File "/var/www/app/application/modulos_python/serieF.py", line 17, in leer
+[Mon Aug 28 19:37:41.015892 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]     timeout=3
+[Mon Aug 28 19:37:41.015897 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]   File "/usr/lib/python2.7/dist-packages/serial/serialutil.py", line 236, in __init__
+[Mon Aug 28 19:37:41.016868 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]     self.open()
+[Mon Aug 28 19:37:41.016895 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]   File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 268, in open
+[Mon Aug 28 19:37:41.018203 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641]     raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+[Mon Aug 28 19:37:41.018233 2017] [wsgi:error] [pid 2539:tid 139849541003008] [client 192.168.1.43:57641] SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+[Mon Aug 28 19:38:23.732718 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648] mod_wsgi (pid=2690): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 19:38:23.732766 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648] Traceback (most recent call last):
+[Mon Aug 28 19:38:23.732778 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]   File "/var/www/app/application/application.wsgi", line 9, in application
+[Mon Aug 28 19:38:23.732811 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]     output = leer()
+[Mon Aug 28 19:38:23.732818 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]   File "/var/www/app/application/modulos_python/serieF.py", line 17, in leer
+[Mon Aug 28 19:38:23.732839 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]     timeout=3
+[Mon Aug 28 19:38:23.732844 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]   File "/usr/lib/python2.7/dist-packages/serial/serialutil.py", line 236, in __init__
+[Mon Aug 28 19:38:23.732943 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]     self.open()
+[Mon Aug 28 19:38:23.732949 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]   File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 268, in open
+[Mon Aug 28 19:38:23.733066 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648]     raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+[Mon Aug 28 19:38:23.733105 2017] [wsgi:error] [pid 2690:tid 139905128720128] [client 192.168.1.43:57648] SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+[Mon Aug 28 19:39:47.399090 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658] mod_wsgi (pid=2690): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 19:39:47.399133 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658] Traceback (most recent call last):
+[Mon Aug 28 19:39:47.399148 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]   File "/var/www/app/application/application.wsgi", line 9, in application
+[Mon Aug 28 19:39:47.399170 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]     output = leer()
+[Mon Aug 28 19:39:47.399176 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]   File "/var/www/app/application/modulos_python/serieF.py", line 17, in leer
+[Mon Aug 28 19:39:47.399186 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]     timeout=3
+[Mon Aug 28 19:39:47.399191 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]   File "/usr/lib/python2.7/dist-packages/serial/serialutil.py", line 236, in __init__
+[Mon Aug 28 19:39:47.399201 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]     self.open()
+[Mon Aug 28 19:39:47.399206 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]   File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 268, in open
+[Mon Aug 28 19:39:47.399216 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658]     raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+[Mon Aug 28 19:39:47.399236 2017] [wsgi:error] [pid 2690:tid 139905120327424] [client 192.168.1.43:57658] SerialException: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'
+[Mon Aug 28 19:39:48.676556 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659] mod_wsgi (pid=2691): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 19:39:48.676591 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659] Traceback (most recent call last):
+[Mon Aug 28 19:39:48.676602 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]   File "/var/www/app/application/application.wsgi", line 9, in application
+[Mon Aug 28 19:39:48.676641 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]     output = leer()
+[Mon Aug 28 19:39:48.676647 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]   File "/var/www/app/application/modulos_python/serieF.py", line 17, in leer
+[Mon Aug 28 19:39:48.676666 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]     timeout=3
+[Mon Aug 28 19:39:48.676671 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]   File "/usr/lib/python2.7/dist-packages/serial/serialutil.py", line 236, in __init__
+[Mon Aug 28 19:39:48.676756 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]     self.open()
+[Mon Aug 28 19:39:48.676761 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]   File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 268, in open
+[Mon Aug 28 19:39:48.676862 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659]     raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+[Mon Aug 28 19:39:48.676872 2017] [wsgi:error] [pid 2691:tid 139905120327424] [client 192.168.1.43:57659] SerialException: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'
+[Mon Aug 28 20:20:52.550894 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263] mod_wsgi (pid=2835): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 20:20:52.550991 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263] Traceback (most recent call last):
+[Mon Aug 28 20:20:52.551049 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 20:20:52.551467 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263]     from application.modulos_python.serieF import leer
+[Mon Aug 28 20:20:52.551621 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263]   File "/var/www/app/application/modulos_python/serieF.py", line 41
+[Mon Aug 28 20:20:52.551628 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263]     out3 = out3 + "/"+ d
+[Mon Aug 28 20:20:52.551631 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263]        ^
+[Mon Aug 28 20:20:52.551634 2017] [wsgi:error] [pid 2835:tid 139958060828416] [client 192.168.1.43:60263] IndentationError: expected an indented block
+[Mon Aug 28 20:20:54.541957 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264] mod_wsgi (pid=2836): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 20:20:54.541999 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264] Traceback (most recent call last):
+[Mon Aug 28 20:20:54.542012 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 20:20:54.542038 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264]     from application.modulos_python.serieF import leer
+[Mon Aug 28 20:20:54.542061 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264]   File "/var/www/app/application/modulos_python/serieF.py", line 41
+[Mon Aug 28 20:20:54.542064 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264]     out3 = out3 + "/"+ d
+[Mon Aug 28 20:20:54.542066 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264]        ^
+[Mon Aug 28 20:20:54.542068 2017] [wsgi:error] [pid 2836:tid 139958060828416] [client 192.168.1.43:60264] IndentationError: expected an indented block
+[Mon Aug 28 20:20:55.914255 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265] mod_wsgi (pid=2835): Exception occurred processing WSGI script '/var/www/app/application/application.wsgi'.
+[Mon Aug 28 20:20:55.914411 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265] Traceback (most recent call last):
+[Mon Aug 28 20:20:55.914473 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265]   File "/var/www/app/application/application.wsgi", line 8, in application
+[Mon Aug 28 20:20:55.914546 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265]     from application.modulos_python.serieF import leer
+[Mon Aug 28 20:20:55.914653 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265]   File "/var/www/app/application/modulos_python/serieF.py", line 41
+[Mon Aug 28 20:20:55.914854 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265]     out3 = out3 + "/"+ d
+[Mon Aug 28 20:20:55.914882 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265]        ^
+[Mon Aug 28 20:20:55.914895 2017] [wsgi:error] [pid 2835:tid 139958052435712] [client 192.168.1.43:60265] IndentationError: expected an indented block
