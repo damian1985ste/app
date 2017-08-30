@@ -37,13 +37,11 @@ def leer():
 
 	out2 =[hex(ord(c)) for c in out]
 	#print(out2)
-	out3=""
+	out3="Lectura: "
 	for d in out2:
 		out3 = out3 + "/"+ d
 
-	#PRUEBA  MEJORAR WEB
-	out4 = 'Content-type: text/html\n'+'<html>\n'+'<body>\n'+'<p>Aqui esta la lectura:</p>\n'+'<ul>\n'+'<h2><li>La lectura es: "%s".</li></h2>' % out3 + '</ul>\n'+'<form>\n'+'<input value="Reload Page" onclick="history.go(0)" type="button">\n'+'</form>\n'+ '</body>\n'+'</html>'
 
 	RFID.close()
-	return out4
+	return out3
 
